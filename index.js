@@ -6,6 +6,7 @@ const port = 5000;
 
 const routerV1 = require('./src/routes/routeV1');
 
+<!--Don--!>
 app.use(express.json());
 app.use(express.static('uploads'));
 app.use(cors())
